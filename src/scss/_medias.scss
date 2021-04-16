@@ -1,0 +1,8 @@
+$desktop_width: 4096px;
+
+@mixin media_desktop{
+    @media only screen
+    and (max-width: #{$desktop_width}) {
+        @content;
+    }
+}

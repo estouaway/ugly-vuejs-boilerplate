@@ -1,0 +1,58 @@
+html, body, #app {
+    min-height: 100vh;
+  }
+  
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+  }
+  
+  #app {
+    background-color: #efeeed;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  img {
+    vertical-align: top;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  input[type=button], button {
+    padding: 0;
+  }
+  
+  .clearfix::after {
+    display: table;
+    clear: both;
+    content: "";
+  }
+  
+  .is-active {
+  }
+  
+  .wrapper {
+    width: 100%;
+    min-width: 300px; 
+  
+    margin: 0 auto;
+    padding: 0 10px;
+  
+    box-sizing: border-box;
+    
+    @include media_desktop {
+      max-width: 1200px;
+      // background: red;
+    }
+  }
+  
+  .fade-enter-active {
+    transition: opacity .8s
+  }
+  .fade-enter, .fade-leave-to {
+    opacity: 0
+  }
