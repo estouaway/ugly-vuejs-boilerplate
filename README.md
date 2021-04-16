@@ -9,3 +9,5 @@ Axios for moked api
 
 
 Might get some updates in the future like working examples of exception handling, pagination, more mocked service actions and more store integration.
+
+![image](https://user-images.githubusercontent.com/7544209/115029628-14827180-9ebe-11eb-9867-20f16ab29549.png)
